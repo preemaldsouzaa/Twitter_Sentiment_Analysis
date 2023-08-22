@@ -67,6 +67,8 @@ Hyperparameter tuning helped fine-tune model parameters for optimal performance,
 Although Logistic Regression was the primary choice, we explored ensemble models, including Ada Boost, XGBoost, Cat Boost, and LightGBM, to ensure a well-rounded evaluation. 
 These models achieved competitive results, but Logistic Regression's interpretability and simplicity ultimately led to its selection.
 
+Furthermore, we delved into the realm of deep learning, constructing intricate **Recurrent Neural Network (RNN)** models. Leveraging the prowess of Long Short-Term Memory (LSTM) and Gated Recurrent Unit (GRU) architectures, these models harnessed sequential data to uncover intricate patterns and relationships, adding a layer of complexity and depth to our predictive arsenal.
+
 ## **Model Selection**
 After an exhaustive evaluation process, Logistic Regression emerged as the preferred model for sentiment analysis due to its exceptional performance. With an accuracy of 70.4% and several practical advantages, including interpretability, simplicity, and resource efficiency, Logistic Regression aligned well with project objectives.
 
@@ -75,7 +77,7 @@ The final Logistic Regression model was saved to a file for further deployment, 
 
 To make our sentiment analysis tool accessible to users, we deploy our chosen model using Flask, a Python web framework. This step involves creating a user-friendly interface where users can input Twitter text, and our model will provide sentiment predictions. 
 
-Testing our Model:
+**Testing our Model:**
 ![twitter_sentiment3](https://github.com/preemaldsouzaa/Twitter_Sentiment_Analysis/assets/117831091/5b709310-0fdf-450d-9536-412ffedec297)
 ![twitter_sentiment1](https://github.com/preemaldsouzaa/Twitter_Sentiment_Analysis/assets/117831091/c3f27ac8-8857-4d5f-b737-aba993f090a0)
 ![Screenshot 2023-08-22 161502](https://github.com/preemaldsouzaa/Twitter_Sentiment_Analysis/assets/117831091/a3c89d03-65cd-4b2a-9fbd-67cb51b25169)
