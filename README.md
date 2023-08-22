@@ -77,9 +77,7 @@ The final Logistic Regression model was saved to a file for further deployment, 
 
 To make our sentiment analysis tool accessible to users, we deploy our chosen model using Flask, a Python web framework. This step involves creating a user-friendly interface where users can input Twitter text, and our model will provide sentiment predictions. 
 
-**Testing our Model:**
+**Testing our Deployed Model:**
 ![twitter_sentiment3](https://github.com/preemaldsouzaa/Twitter_Sentiment_Analysis/assets/117831091/5b709310-0fdf-450d-9536-412ffedec297)
 ![twitter_sentiment1](https://github.com/preemaldsouzaa/Twitter_Sentiment_Analysis/assets/117831091/c3f27ac8-8857-4d5f-b737-aba993f090a0)
 ![Screenshot 2023-08-22 161502](https://github.com/preemaldsouzaa/Twitter_Sentiment_Analysis/assets/117831091/a3c89d03-65cd-4b2a-9fbd-67cb51b25169)
-
-With this README, we aim to provide a comprehensive overview of our project, from its objectives and tools to its key phases of data preprocessing, EDA, model development, and deployment, offering a clear and informative guide to our sentiment analysis project on Twitter data.
